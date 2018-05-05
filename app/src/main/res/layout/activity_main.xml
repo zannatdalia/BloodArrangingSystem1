@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context="com.example.sawon.bloodarrangingsystem.MainActivity">
+        <EditText
+        android:id="@+id/eUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#88f9d5d5"
+        android:textColor="#f8c2020f"
+        android:padding="20dp"
+        android:hint="User Name"
+        android:textSize="20dp"
+        android:textColorHint="#f8c2020f"
+        />
+    <EditText
+        android:padding="20dp"
+        android:id="@+id/ePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#88f9d5d5"
+        android:textColor="#f8c2020f"
+        android:hint="Password"
+        android:textSize="20dp"
+        android:textColorHint="#f8c2020f"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/bLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="LogIn"
+            android:textSize="20dp"
+            android:background="#f8c2020f"
+            android:textColor="#88fcfcfc" />
+        <Button
+            android:id="@+id/bSignup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="Sign Up"
+            android:textSize="20dp"
+            android:background="#f8c2020f"
+            android:textColor="#88fcfcfc" />
+    </LinearLayout>
+
+</LinearLayout>
